@@ -10,7 +10,7 @@ export  function Footer() {
       <Image
       src="/LI-In-Bug.png"
       width={45}
-      height={70}
+      height={40}
       alt=""
     />
     </div>

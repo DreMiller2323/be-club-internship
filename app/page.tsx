@@ -13,8 +13,8 @@ export default function Home() {
    <Image
   
       src="/promo.jpg"
-      width={900}
-      height={400}
+      width={750}
+      height={650}
       className="beclub-logo"
       alt="Picture of the author"
     />
@@ -49,8 +49,8 @@ workshops, and real-world innovation experiences</p>
   
     <Image
       src="/collab.JPG"
-      width={350}
-      height={350}
+      width={250}
+      height={25}
       alt=""
     />
      <div className="what-we-do">
@@ -70,8 +70,8 @@ Our goal is to make entrepreneurship accessible — not just as a career path, b
 
     <Image
       src="/learn.jpg"
-      width={1000}
-      height={1000}
+      width={250}
+      height={250}
       alt=""
     />
     <h1>Startup Speaker Series</h1>
@@ -84,7 +84,7 @@ Our goal is to make entrepreneurship accessible — not just as a career path, b
 
         <Image
       src="/lady.jpg"
-      width={800}
+      width={250}
       height={500}
       alt=""
     />
@@ -97,8 +97,8 @@ Our goal is to make entrepreneurship accessible — not just as a career path, b
     <div className="item-photo">
           <Image
       src="/IMG_4092.JPG"
-      width={1000}
-      height={1000}
+      width={250}
+      height={250}
       alt=""
     />
        <h1>Student Venture Incubator</h1>
@@ -112,8 +112,8 @@ Our goal is to make entrepreneurship accessible — not just as a career path, b
 
     <Image
       src="/IMG_6799.jpg"
-      width={400}
-      height={350}
+      width={250}
+      height={250}
       alt=""
     />
 
@@ -133,6 +133,7 @@ Our goal is to make entrepreneurship accessible — not just as a career path, b
       alt=""
     /> */}
     <div className='bottom-page'> 
+      <div>
   <h1>Join the Community. Support the Mission.</h1>
 <p >Whether you’re a student looking to get involved or a supporter who believes in empowering young entrepreneurs, there are many ways to contribute to BEC. Join our events, collaborate on projects, or help us expand our impact through sponsorships and donations.</p>
   <h1> Join as a Member</h1>
@@ -143,18 +144,16 @@ Our goal is to make entrepreneurship accessible — not just as a career path, b
  Contribute to funding events, speaker sessions, 
  and student-led  projects. </p>
  <button className="speaker-button">Join Now!</button>
-
+{/* <div className='contact-dets'> */}
 </div>
-</div>
-<div className='contact-dets'>
-
      <Image
       src="/party.png"
-      width={310}
-      height={350}
+      width={350}
+      height={200}
       alt=""
     />
-    <span>
+   
+      <span>
   <ul className="contact-us" >
     <h1>Contact Us</h1>
     <li>Phone Number:(520)-555-2556 </li>
@@ -162,6 +161,7 @@ Our goal is to make entrepreneurship accessible — not just as a career path, b
     <li>Phone Number:(520)-555-2556 </li>
  </ul>
 </span>
+</div>
 </div>
 </div>
   );

@@ -9,10 +9,19 @@
   text-shadow:gray;
 }
 .bottom-page{
-  width:50%;
+  display: flex;
+  position: relative;
+  width:900px;
   border: 1px red solid;
 box-shadow: 4px 4px 8px white;
+/* line-height: 40px; */
+height: 300px;
+font-size: 12.25px;
+  font-weight: 700px;
+padding: 3px;
+}
 
+.bottom-page h1{
 }
 /* main page elements */
 .top-logo{
@@ -42,7 +51,7 @@ padding:10px;
 main images header tag */
 .Berea{
 position:absolute;
-display: block;
+display: grid;
 color: white;
 background: rgba(0,0,0,0,5);
 padding:1px;
@@ -262,7 +271,7 @@ padding:5px;
 width: 750px;
 }
 .contact-us{
-position: absolute;
+
 top:15px;
 color: white;
 background: rgba(0,0,0,0,5);
@@ -271,19 +280,17 @@ font-weight: 700px;
 
 }
 .contact-dets{
- justify-content: center ;
   object-fit: fill;
   display: grid;
-position: relative;
+position: block;
 margin-left: 260px;
  width:310px;
  height:415px;
  border: 1px red solid;
 box-shadow: 4px 4px 8px white;
 background-color: black;
-justify-content: left;
+
 object-fit: cover;
-margin-bottom: 1px;
 
 }
 .party{
