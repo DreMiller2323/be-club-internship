@@ -22,10 +22,11 @@ export default   function Plan() {
 
    
   <div className='plan'>
-  <div>
+  <div className='week_One'>
+
 {data.map((plan) => (
-  
-  <div key={plan.id}>Week1: {` ${plan.week_one} IBS`}</div>
+
+  <div key={plan.id}>{`Week1: ${plan.week_one} IBS`}</div>
 ))}
 </div>
 <div>

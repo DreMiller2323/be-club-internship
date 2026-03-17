@@ -6,9 +6,11 @@ import {auth} from '../../../lib/auth';
 import {Suspense} from 'react'
 import Image from "next/image";
 import Analytics from '../fitnessInfo/page'
+import { redirect } from 'next/navigation'
 
   const session =  await auth()
- if (!session) return <div>Not authenticated</div>
+ if (!session)   redirect('/login')
+ return <div>Not authenticated</div>
 export default  function Page() {
     return (
     <main className='plan'>
@@ -22,7 +24,7 @@ export default  function Page() {
         <div>
              <Image
       src="/DreFit.JPG"
-      width={500}
+      width={150}
       height={100}
       alt=""
     />

@@ -75,10 +75,10 @@ const userId = session.user.id
 }
       
   return (
-    <main className>
+    <main className ="fitness-details">
   <h1>This is my first app-project- Powerlifter Plan generator</h1>
-<div className="form-grid">
-  <article>
+<div className="fitness-grid">
+  <article className =" about-app" >
     <section>
         The plans created in this app, do not guarantee massive strength gains in a fast period of time, this app is designed to teach you delayed gratification. 
       Buiding strength in the gym takes time, we will layout a 5, 3, 1 set scheme over a 6 week period. 
@@ -96,10 +96,10 @@ const userId = session.user.id
     
   </article>
   <article>
-    <h1>Enter the information below, we reccommend entering a rep range of greater than 3 for your safety, don't worry our system can predict your 1 rep max.</h1>
+    <h1>Enter the information below, we recommend entering a rep range of greater than 3 for your safety, don't worry our system can predict your 1 rep max.</h1>
   </article>
 </div>
-    <form  className = "form-div" prefetch ='true'action ={handleSubmit}>
+    <form  className = "fitness-intake" prefetch ='true'action ={handleSubmit}>
         
       <div>
   
