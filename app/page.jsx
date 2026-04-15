@@ -4,7 +4,7 @@ import { redirect } from 'next/navigation'
 export default function Home() {
   const sendToSignUp=()=>{
           redirect('/signup')
-
+//this PAGE SHOULD be page.jsx!
   }
   return (
  <div className="image-container">
